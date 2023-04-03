@@ -2,10 +2,14 @@
 import dataiku
 import pandas as pd, numpy as np
 from dataiku import pandasutils as pdu
+import matplotlib.pyplot as plt
 
 # Read recipe inputs
 output = dataiku.Dataset("output")
 output_df = output.get_dataframe()
+
+x=[1,2,3]
+y=[4,6,8]
 
 
 # Compute recipe outputs from inputs
