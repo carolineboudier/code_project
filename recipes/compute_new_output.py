@@ -12,7 +12,6 @@ x=[1,2,3]
 y=[4,6,8]
 plt.plot(x,y)
 
-#ezbfsdkbkze
 
 print('test')
 # Compute recipe outputs from inputs
