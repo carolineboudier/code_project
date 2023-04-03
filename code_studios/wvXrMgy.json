@@ -1,0 +1,26 @@
+{
+  "name": "code-studio",
+  "libName": "code-studio",
+  "templateId": "my-vsc-template",
+  "params": {},
+  "owner": "admin",
+  "versionTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1680533562792
+  },
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1680533562792
+  },
+  "tags": [],
+  "customFields": {},
+  "checklists": {
+    "checklists": []
+  }
+}
