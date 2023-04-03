@@ -8,8 +8,8 @@ from dataiku import pandasutils as pdu
 # Compute recipe outputs
 # TODO: Write here your actual code that computes the outputs
 # NB: DSS supports several kinds of APIs for reading and writing data. Please see doc.
-
-output_df = ... # Compute a Pandas dataframe to write into output
+data={'row_1': [3, 2, 1, 0], 'row_2': ['a', 'b', 'c', 'd']}
+output_df = pd.DataFrame.from_dict(data, orient='index') # Compute a Pandas dataframe to write into output
 
 
 # Write recipe outputs
