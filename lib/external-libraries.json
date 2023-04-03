@@ -4,6 +4,10 @@
       "remote": "git@github.com:carolineboudier/dataiku_libraires.git",
       "checkout": "refs/heads/main",
       "remotePath": "",
+      "lastHash": "6769e221db435a6981c35fb70c0eb38aebb2c767",
+      "conflictingFiles": [],
+      "resolvedFiles": [],
+      "faultyHash": "",
       "isDirty": false
     }
   },
