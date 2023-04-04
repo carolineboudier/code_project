@@ -134,7 +134,7 @@
     },
     "dkuProperties": []
   },
-  "name": "Code",
+  "name": "Code (branch_one)",
   "metrics": {
     "probes": [],
     "engineConfig": {
@@ -190,11 +190,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 2,
+    "versionNumber": 3,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1680596550672
+    "lastModifiedOn": 1680596554274
   },
   "creationTag": {
     "versionNumber": 0,
@@ -203,7 +203,7 @@
     },
     "lastModifiedOn": 1680529852185
   },
-  "shortDesc": "The project *Code* was created by Administrator on Apr 03rd 2023",
+  "shortDesc": "The project *Code* was created by Administrator on Apr 03rd 2023\nThe project *CODE_BRANCH_ONE* was copied from *CODE* by Administrator on avr. 04th 2023",
   "tags": [
     "duplicated"
   ],
