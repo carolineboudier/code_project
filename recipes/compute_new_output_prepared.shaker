@@ -28,8 +28,39 @@
   },
   "explorationFilters": [],
   "columnUseScientificNotationByName": {},
-  "exploreUIParams": {},
-  "steps": [],
+  "origin": "PREPARE_RECIPE",
+  "exploreUIParams": {
+    "autoRefresh": true
+  },
+  "steps": [
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "ColumnRenamer",
+      "params": {
+        "renamings": [
+          {
+            "from": "0",
+            "to": "first_col"
+          },
+          {
+            "from": "1",
+            "to": "sec_col"
+          },
+          {
+            "from": "2",
+            "to": "third_col"
+          },
+          {
+            "from": "3",
+            "to": "fourth_col"
+          }
+        ]
+      },
+      "alwaysShowComment": false
+    }
+  ],
   "maxProcessedMemTableBytes": -1,
   "previewMode": "ALL_ROWS",
   "vizSampling": {
@@ -55,7 +86,16 @@
     "autoRefreshSample": false
   },
   "analysisColumnData": {},
-  "columnWidthsByName": {},
+  "columnWidthsByName": {
+    "0": 100,
+    "1": 100,
+    "2": 100,
+    "3": 100,
+    "first_col": 100,
+    "sec_col": 100,
+    "third_col": 100,
+    "fourth_col": 100
+  },
   "sorting": [],
   "globalSearchQuery": "",
   "coloring": {
