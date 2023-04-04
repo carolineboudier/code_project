@@ -60,11 +60,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1680594585847
+    "lastModifiedOn": 1680594619595
   },
   "creationTag": {
     "versionNumber": 0,
@@ -87,10 +87,10 @@
   },
   "schema": {
     "columns": [
-      {"name":"0","type":"string"},
-      {"name":"1","type":"string"},
-      {"name":"2","type":"string"},
-      {"name":"3","type":"string"}
+      {"name":"first_col","type":"string"},
+      {"name":"sec_col","type":"string"},
+      {"name":"third_col","type":"string"},
+      {"name":"fourth_col","type":"string"}
     ],
     "userModified": true
   },
